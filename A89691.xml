@@ -1,0 +1,620 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A meditation of life and death Translated with some alterations out of the works of the learned and ingenious Eusebius Nierembergius.</title>
+            <author>Nieremberg, Juan Eusebio, 1595-1658.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1682</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 39 KB of XML-encoded text transcribed from 27 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A89691</idno>
+            <idno type="STC">Wing N1150</idno>
+            <idno type="STC">ESTC R231382</idno>
+            <idno type="EEBO-CITATION">99896812</idno>
+            <idno type="PROQUEST">99896812</idno>
+            <idno type="VID">135215</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A89691)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 135215)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 2446:9)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A meditation of life and death Translated with some alterations out of the works of the learned and ingenious Eusebius Nierembergius.</title>
+                  <author>Nieremberg, Juan Eusebio, 1595-1658.</author>
+               </titleStmt>
+               <extent>[6], 40 p.   </extent>
+               <publicationStmt>
+                  <publisher>printed by L.L. for Tho. Fickus,</publisher>
+                  <pubPlace>Oxford :</pubPlace>
+                  <date>anno Domini 1682.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Title page is A2.</note>
+                  <note>Reproduction of original in the Folger Shakespeare Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Christian life --  Early works to 1800.</term>
+               <term>Meditations --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-06</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-06</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-07</date>
+            <label>Megan Marion</label>Sampled and proofread</change>
+         <change>
+            <date>2010-07</date>
+            <label>Megan Marion</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:135215:1" rendition="simple:additions"/>
+            <pb facs="tcp:135215:1" rendition="simple:additions"/>
+            <pb facs="tcp:135215:2"/>
+            <pb facs="tcp:135215:2"/>
+            <pb facs="tcp:135215:3"/>
+            <pb facs="tcp:135215:3"/>
+            <p>A MEDITATION OF Life and Death.</p>
+            <p>Tranſlated with ſome Alterations out of the works of the Learned and Ingenious <hi>Euſebius Nierembergius.</hi>
+            </p>
+            <q>
+               <l>—Agnoſcere ſolis</l>
+               <l>Permiſſum eſt, quos jam tangit vicinia fati</l>
+               <l>Victuroſ<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> dii celant, ut vivere durent,</l>
+               <l>Faelix eſſe mori—
+<bibl>
+                     <hi>Lucan.</hi> lib. <hi>4.</hi> pag. <hi>103.</hi>
+                  </bibl>
+               </l>
+            </q>
+            <p>
+               <hi>OXFORD,</hi> Printed by <hi>L. L.</hi> for <hi>THO. FICKUS</hi> Anno Domini 1682.</p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:135215:4"/>
+            <pb facs="tcp:135215:4"/>
+            <head>HUMBLY DEDICATED TO Madam <hi>F. N.</hi>
+            </head>
+            <opener>
+               <salute>Madam,</salute>
+            </opener>
+            <p>
+               <seg rend="decorInit">T</seg>HO it may ſeem an un<g ref="char:EOLhyphen"/>pardonable peice of im<g ref="char:EOLhyphen"/>pertinence, to preſent a <hi>Meditation</hi> of <hi>Life</hi> and <hi>Death</hi> to a perſon, whoſe whole life (as ap<g ref="char:EOLhyphen"/>peares by your Angelical conver<g ref="char:EOLhyphen"/>ſation) is nothing elſe, yet ſince it is a ſubject of ſuch importance that it can never be too much, or too often thought on, I thought
+<pb facs="tcp:135215:5"/>
+it might not be altogether unac<g ref="char:EOLhyphen"/>ceptable to add Meditation to Me<g ref="char:EOLhyphen"/>ditation; eſpecially ſince in this I was ſure to hit your ſerious hu<g ref="char:EOLhyphen"/>mour, and entertain you with a diſh of your own liking. <hi>Life</hi> and <hi>Death,</hi> tho two of the moſt common <hi>things,</hi> are yet none of the commoneſt <hi>Subjects</hi> in the world. For I believe generally nothing is leſs thought of; and perhaps for no other reaſon but becauſe they are ſo common. I dare not promiſe <hi>you</hi> any thing new here, perhaps I might <hi>ano<g ref="char:EOLhyphen"/>ther,</hi> but <hi>you</hi> I dare not. How<g ref="char:EOLhyphen"/>ever I hope you will not blame the barrenneſs of the Author, but im<g ref="char:EOLhyphen"/>pute it to the exceſs of your own thoughtfulneſs, the <hi>Anticipation</hi>
+               <pb facs="tcp:135215:5"/>
+of your Cloſet. For my own part I was ſo pleaſed with a great many ſententious Remarks and pithy expreſsions, which occur in this Diſcourſe, that I thought I might without any Prodigality of time, employ two daies in the Tranſla<g ref="char:EOLhyphen"/>tion of it. But if the product of two daies study can afford you one hours entertainment, I ſhall think my time could never have been better ſpent. But not to de<g ref="char:EOLhyphen"/>tain you any longer from theſe, or your own more weighty Meditati<g ref="char:EOLhyphen"/>ons, I take my leave of you, with this real and unfeigned proteſta<g ref="char:EOLhyphen"/>tion, that I am</p>
+            <closer>
+               <signed>Madam, Your moſt humble and devoted Servant</signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb facs="tcp:135215:6"/>
+            <pb n="1" facs="tcp:135215:6"/>
+            <head>A MEDITATION OF Life and Death.</head>
+            <p>
+               <seg rend="decorInit">L</seg>IFE in the opinion of moſt men is the greateſt good, and Death the greateſt evil. But they are in this, as in other matters of greateſt concern moſt <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>iſtaken. For rather Life is the great<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ſt evil, if we don't live well; and Death the greateſt good, if you don't lye ill. Neither can you dye ill, un<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>eſs you live ill. Life if it be not good <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>oes but unfold a larger ſcene of Vice <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nd miſery; Death if not evil, puts a
+<pb n="2" facs="tcp:135215:7"/>
+period to all evil. That wicked men think amiſs of Death is no more a wonder, then that a vitiated Palate, diſreliſhes the ſweeteſt Hony. If it be evil, 'tis to them only who have made it ſo by an ill Life. There is not one ſufficient reaſon why we ſhould hate Death, but many, why we ſhould deſire it. Whether we conſi<g ref="char:EOLhyphen"/>der it alone, or with its attendants. Whether we c<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nſider the evils from which it frees us, or rhe good into w<hi rend="sup">ch</hi> it inſtates us. If we conſider tha<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> it is not evil in it ſelf, nay that it <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> good. Or ſuppoſe it were an evil, th<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> would not counter poiſ<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> the good which it brings, or were i<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> n<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> goo<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> that would <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>old no proportion wit<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> the evil it removes. I know nothing in Life conſiderable beſides an em<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>
+               <g ref="char:EOLunhyphen"/>lous throng of calamitys, whoſe ve<g ref="char:EOLunhyphen"/>ry multitude overwhelms our fear and which have this only wretche<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Lenitive to make them tolerable their own commonneſs, and daily in<g ref="char:EOLunhyphen"/>curſion.
+<pb n="3" facs="tcp:135215:7"/>
+Twas the opinion of <hi>Orpheus</hi> that Life was the puniſhment of Souls, and ſuch a one to, whereby the Living were commenſurately bound faſt to the Dead. The latter part at leaſt is true, for by Life the pure and eter<g ref="char:EOLhyphen"/>nal Soul is Wedded to a Groſs and Corruptible Body. Should God on a ſuddain with his Almighty <hi>Fiat</hi> ſpeak a man into Being, endow'd with a free and perfect uſe of his thoughts, and give him an entire proſpect of all Mankind, he would no ſooner caſt a<g ref="char:EOLhyphen"/>bout his Eyes, but he would meet with ſome miſerable objects, which would call for his fears. Either he would ſee ſome Blind, or ſome Maim'd; ſome Lame, ſome Begging, ſome Decrepit, ſome Languiſhing, ſome Quarrelling, ſome commiting Murther, ſome Mad, and almoſt all, Weeping. And could he look into the inſides, he would find all tormen<g ref="char:EOLhyphen"/>ted with Deſire and Diſcontent. Sure<g ref="char:EOLhyphen"/>ly ſuch a diſmal Scene of things would
+<pb n="4" facs="tcp:135215:8"/>
+make him repent of his newly receiv'd Being, and fall in love with anni<g ref="char:EOLhyphen"/>hilation. And therefore cunning Nature doth leaſurely and thriftily diſpence the uſe of reaſon to Man<g ref="char:EOLhyphen"/>kinde, that we might not ſtartle at the ſuddain appearance of evils, but by cuſtome might be brought to bear them with leſs impatience.</p>
+            <p>A peice of policy much like that of the Emperor, Who Cloiſter'd up his Son from his Infancy in a Magnifi<g ref="char:EOLhyphen"/>cent Apartment, and to keep him un<g ref="char:EOLhyphen"/>acquainted with the condition of Mankind, took care that he ſhould never ſee nor hear any mirerable ob<g ref="char:EOLhyphen"/>ject That no Poor, Diſeaſed, or Old man, ſhould ever come in his fight, and that nothing ſhould be ſaid, or done, but what was highly pleaſing and acceptable. A vain project to think to keep out Grief with Cloiſ<g ref="char:EOLhyphen"/>ters and Walls, to ſhut the Gate of the Palace againſt Melanch<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ly, when the dore of Life ſtood wide open. The
+<pb n="5" facs="tcp:135215:8"/>
+very diverſions themſelves were an <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nlet to Sadneſs, and Melancholy crept <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>n through the Satiety and Fatigue of pleaſure. Change is ſo much an In<g ref="char:EOLhyphen"/>gredient of all Human delight, that an uninterrupted ſtate of Joy occaſions ſadneſs. Certainly tho the Emperor could keep off all miſeries from the <hi>Sight</hi> of his Son, yet he could not from his <hi>Mind;</hi> and tho he could ſe<g ref="char:EOLhyphen"/>cure him from other calamities, yet he could find no preſervative againſt deſire. His Son began to long and grow ſad in an <hi>Elyſium</hi> of pleaſures. And what do you think 'twas he deſi<g ref="char:EOLhyphen"/>red? Not to live ſo pleaſantly. He be<g ref="char:EOLhyphen"/>gan to complain of the tediouſneſs of <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>his too indulgent fortune, and Pe<g ref="char:EOLhyphen"/>titioned the Emperor to uncloiſter him from his wretched happineſs. A Petition which put his Father to a great ſtreight, who for fear of giv<g ref="char:EOLhyphen"/>ing offence to his Son, was fain to al<g ref="char:EOLhyphen"/>ter his reſolution he had made, never to diſpleaſe him. He conſented to his
+<pb n="6" facs="tcp:135215:9"/>
+liberty, but withal took ſpecial ca<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> that no ſad object might come in h<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> way. He gave order that all Blin<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Deform'd, Maim'd, Poor, and Old me<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> ſhould be remov'd far off; but ala<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> when was diligence ſo fortunate as t<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> conceal all miſeries? They are ſ<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> numerous that they cannot be hid<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> much leſs quite taken away. Powe<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> was here unable to contend with h<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> man infirmity, which in ſpite of th<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Emperors endeavours, diſcover'd i<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> ſelf. 'Twas the fortune of the youn<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> man to light upon a Blind Cripple and a Leper. He ſtartled, and ſtoo<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> amazed at the ſtrange ſpectacle, a<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> if he had ſeen an Apparition. He ask<g ref="char:EOLunhyphen"/>ed what it was? And when he knew that theſe were the fruits or human<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Life, he had his antidote againſt al<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> the pleaſures of it, and took a diſguſ<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> againſt Life it ſelf. And that h<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> might have as little of it as was poſſi<g ref="char:EOLhyphen"/>ble, where fortune had poſſeſſion o<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> the greateſt part, he preſently re<g ref="char:EOLunhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ounc'd,
+<pb n="7" facs="tcp:135215:9"/>
+if not his Life, yet the hope of <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap>, or what is with many of equal value, <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> is Crown and Dignities. He took <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>anctuary at that which is moſt like <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>eath, obſcurity and privacy, where <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e might enjoy ſecurity at leaſt, if <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ot ſafety. Now if from ſuch a ſmall occurrence he took ſuch a diſguſt at <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ife, what would he have done, had <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e took a general ſurvey of the world, <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ad been preſented with a Scene of Mortality, Charnel-houſes, Sculs, Dead Bones and Worms? Had he ranſackd <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ll the corners of the earth, and ſeen <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hoſe ſordid Foundations, on which Life is built, the dedication of our miſery celebrated by the pangs of the Mother, and the tears of the Infant. What if he had lookt into our bed Chambers and breaſts? He would <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ave ſeen us in Tears, Deſires and <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>oathings; one bewailing his Wife, <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>n other his Children, one hungry, <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nother ſurfeited, one carking for neceſſaries, another uneaſy under
+<pb n="8" facs="tcp:135215:10"/>
+ſuperfluities. What if he had ſee<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> no houſe without ſome misfortune in it? What if he had ſeen all tha<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> were Wracked with the Gout, Ston<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> and other Maladies? What if he had ſeen all that Languiſh under Sickneſs all that were diſtracted with Cares all that were diſcompoſed with de<g ref="char:EOLhyphen"/>ſires? This certainly would have pre<g ref="char:EOLunhyphen"/>judiced him againſt Life, againſt the World where we ſo die in miſeries and miſeries live in us. How glad would he have been to hear of a way of ſetting himſelf once more at liber<g ref="char:EOLhyphen"/>tie! I fancy he would extol Death a<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> the beſt invention in the World.</p>
+            <p>Suppoſe a man were hedg'd round with a circle of Wild Beaſts, her<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> ſaw a Tigre ruſhing upon him there a Lyon putting forth his Paw t<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> devour him, and in an other plac<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> a Venemous Serpent hiſſing at him what would not this man give to pur<g ref="char:EOLunhyphen"/>chaſe a freedom from this aſſembly o<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <pb n="9" facs="tcp:135215:10"/>
+miſchiefs? what happineſs would he think greater then to be reſcued from ſo many dangers? and will it be a leſſe to be ſnacht from greater evils? we are environd with moſt furious and impetuous paſſions, and at all ſides aſſaulted with misfortunes. We are in the midſt of a whole Ring of Evils. Some we feel, and fear all. Now we have but one Sanctuary from all theſe evils, and that's Death.</p>
+            <p>Were it not for this, there would be no end of our miſeries. How comes it to paſs then, that we dread that which is recommanded to us by as many Endearments as there are Celamities in Life. One would think danger were enough to recommend ſecurity. And there is no other be<g ref="char:EOLhyphen"/>ſides Death.</p>
+            <p>And therefore <hi>Socrates,</hi> after he had took his Deadly Draught offer'd a Sacrifice to <hi>Aeſculapius</hi> the God of Phyſick, acknowledging Death to be the Catholick Medicin for all Ma<g ref="char:EOLhyphen"/>ladies.</p>
+            <p>
+               <pb n="10" facs="tcp:135215:11"/>I think one of the moſt rediculous, things <hi>Xerxes,</hi> ever did in his Life, and which well deſerved the reproof of <hi>Artabanus,</hi> was when having a proſ<g ref="char:EOLhyphen"/>pect of his Numerous Army from an high Hill he Wept, to think that with<g ref="char:EOLhyphen"/>in the compaſs of an Hundred years they ſhauld be all dead and gon. He thought it ſeems, 'twas pitty Men ſhould die ſo ſoon. But I think he had more reaſon to lament the flow proceſs of that Funeral which is uſh<g ref="char:EOLhyphen"/>er'd along with an age of miſeries. Without queſtion if from his high Station he had ſeen human infelicitys as well as Men, he would have dry'd up his Eyes at the remembrance of that univerſal remedy; Death, nei<g ref="char:EOLhyphen"/>ther would he have feard that, which takes a way all that is to be fear'd. That can be no evil. Which is the only deliverance from evil. Should thoſe who have tried both Life and Death be put to the queſtion which
+<pb n="11" facs="tcp:135215:11"/>
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hey would chuſe, either to reenter <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>pon that, or to continue in this. <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>one would chuſe Life but thoſe <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ho were moſt unworthy of it, thoſe <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ho lived ill. But as for thoſe who had <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>d a good Life, they would never <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>epent of Death, or deſire to return <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> Life again, which they would dread <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ore now they were dead, then they <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>d Death when they were alive. <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> is ſaid of <hi>Stanislaus,</hi> a Man of <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>eat Integrity and Conſtancy, that <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> gave one the Option of Life or <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>eath, who told him he had rather <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> again then live again. So that one <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>fe was enough to Cloy him, whereas <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>eath would endure a ſecond trial.</p>
+            <p>If Souls Subſiſt as <hi>Origen, Plato, <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>rmes,</hi> and many of the antient Phi<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ſophers would fain make us believe <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>fore their Impriſonment in the <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>omb, one would think they ſhould <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>auſeat their putrid and narrow con<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ement, where they are almoſt Sti<g ref="char:EOLhyphen"/>fled
+<pb n="12" facs="tcp:135215:12"/>
+in Seminal impurities, and mat<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <g ref="char:EOLunhyphen"/>rial Concretions. Eſpecially if ſhould be told them that they muſt <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>
+               <g ref="char:EOLunhyphen"/>mued up 9 Months in this dark P<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>
+               <g ref="char:EOLunhyphen"/>ſon, and then above Ten years mo<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> in the darkneſs of ignorance and e<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <g ref="char:EOLunhyphen"/>rour. Add to this. If they knew t<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> many Labours and Hardſhips th<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> were to undergo, wherein they wo<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> taſt the miſeries of Life before th<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> knew what it was to live. The Infa<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> ſerves an Apprentiſhip of miſery fro<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> the very Cradle. The avoidance Hunger makes him breake Priſon the firſt. He goes out according <hi>Hippocrates,</hi> to Seek his living abro<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> when there is a dearth of proviſion home. And then falls out of one <gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap>
+               <g ref="char:EOLunhyphen"/>ſery into an other, which is wor<gap reason="illegible" resp="#PDCC" extent="2 letters">
+                  <desc>••</desc>
+               </gap> What if he could peep out throug<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Crany of his Priſon, and ſee all <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> Miſerable, Languiſhing and Decrep<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Wretches that are in this great H<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <g ref="char:EOLunhyphen"/>pital the World? He would ſ<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> back from the ſight of ſo many ev<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <pb n="13" facs="tcp:135215:12"/>
+much leſs hazard the enduring of <gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hem. <hi>Plato</hi> aſcribes the ſuſpenſion of reaſon in Infancy, and the errone<g ref="char:EOLhyphen"/>ouſneſs and ficleneſs of Youth, to that Conſternation and fright which ſeiſes <gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>he Soul at the inſtant when ſhe is <gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hrown down from her Orb of light <gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nto this Vale of miſery, this dark <gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ncooth Dungeon of the World and <gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>he Body. Again what if he knew <gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hat the moſt lightſome and pleaſant part of his Life was moſt ſubject to <gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ears, and that the flower of his age muſt wither in perpetual vexation, <gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hat he muſt always live in a ſlaviſh dread of the Rod, and have his moſt <gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>iery jubilees ſour'd and allaid with <gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>he awe of a Schoole-maſter? Again what if he knew that that part of Life, which is moſt deſired is moſt Calami<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ous?</p>
+            <lg>
+               <l>Multa ſenem fragilis vexant inco<g ref="char:cmbAbbrStroke">̄</g>moda carnis.</l>
+               <l>Nam macie turpi tabeſcunt languida membra</l>
+               <l>Tunc Genuum juctura riget venaſ<expan>
+                     <am>
+                        <g ref="char:abque"/>
+                     </am>
+                     <ex>que</ex>
+                  </expan> per omnes</l>
+               <l>
+                  <gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>llius in toto frigeſcit Corpore Sanguis.</l>
+               <l>
+                  <pb n="14" facs="tcp:135215:13"/>Sic bacculo nitens artus ſuſtentat Inermes</l>
+               <l>Quid triſtes memoree<g ref="char:cmbAbbrStroke">̄</g> ge<g ref="char:cmbAbbrStroke">̄</g>itus? quid taedia menti<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </l>
+               <l>Somnus abeſt oculis—</l>
+            </lg>
+            <p>Add to this the train of diſeaſe which then troop in togather. Fo<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> old age is the Sink of Life. Here is a Stagnation of all filth. The Autumn of our Life is the Spring of our Infir<g ref="char:EOLhyphen"/>mitys. Well may the Old man ſtoop when his burthen is ſo great. But <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> think Nature deals kindly with us i<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> this, that ſhe baniſhes all pleaſure from Old age, and ſummons in grief of all Sorts. That ſo we may be th<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> more willing to quit the Stage, and after the heat and toil of a tedious day to refreſh our ſelves in the ſhades o<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Death. What a deep Tragedy now i<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Life, which begins and ends in miſe<g ref="char:EOLhyphen"/>rie? I now no longer wonder at <hi>Iſis</hi> for ſaying in his Sacred book that th<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Souls were all in Sadneſs when they underſtood they were Condemned t<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> enter Bodies. <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>
+               <pb n="15" facs="tcp:135215:13"/>
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, ſaies he. And <hi>Camephes</hi> thus deſcribes their com<g ref="char:EOLhyphen"/>plaint. <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>, &amp;c. <q>What have we poor Creatures done amiſs to deſerve this puniſhment, to miniſter to a cold and humed Body? Our Eyes ſhall no lon<g ref="char:EOLhyphen"/>ger ſee the divine Souls, ſince they are now ſtreightned within little Orbs and Humours. But as often as we ſhall look up to our Native Heaven we ſhall figh, and ſome<g ref="char:EOLhyphen"/>times we ſhall not be able to ſee ſo much as that. For we poor Crea<g ref="char:EOLhyphen"/>tures are condemn'd, neither have we an abſolute power of ſight, but dependent upon the Light of the Sun. Diſtance of place intercepts our ſight; and we ſhall hear our cognate ſou<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>s pittifully ſighing in the air for want of our company. Now we are no company for them. Now inſtead of the high Arch of Heaven, our houſe muſt be the narrow com<g ref="char:EOLhyphen"/>paſs of an heart. O if any one would
+<pb n="16" facs="tcp:135215:14"/>
+looſe us, from what, to what would he tranſlate us! But thou O Lord, Fa<g ref="char:EOLhyphen"/>ther and Creator, who ſo eaſily neg<g ref="char:EOLhyphen"/>lects thy workmanſhip, ſet us ſome bounds, and vouchſafe to converſe with us tho never ſo little while we are here below.</q> The ſouls Petitio<g ref="char:EOLhyphen"/>ned Death as a ſolace of life, and ſince 'twas their doom to live in the body at leaſt at length to die. Next to not living at all, nothing was more deſi<g ref="char:EOLhyphen"/>rable then to die ſpeedily. So far is Death more eligible then life.</p>
+            <p>There is not one part of life deſi<g ref="char:EOLhyphen"/>rable to a conſidering perſon, becauſe there is not one part free from ſorrow and diſſatisfaction. And therefore as a Traveller tired with going up a rough and ſteep Hill, is forc'd to ſtand ſtill many times to recruit and take breath, that he may with the more eaſe perform the remainder of his journey: So the Pilgrim-Soul in this rough and uneven Life, wants the reſt
+<pb n="17" facs="tcp:135215:14"/>
+and pauſe of Death. whence ſhe may gather a new ſupply of ſtrength for the progreſs of Eternity. Our jaded Life will not carry us through in one continued courſe to Immortality. Such along journey cannot be per<g ref="char:EOLhyphen"/>form'd without reſting by the way. The Grave is our Inn, &amp; from thence we ſet out for Immortality. Neither indeed can we ſtay ſo long till the pauſe of Death. We muſt have ma<g ref="char:EOLhyphen"/>ny intervals of reſt, as wearied Tra<g ref="char:EOLhyphen"/>vailers which bait oft by the way and and defer not their refreſhments till they take up for all night. The impor<g ref="char:EOLhyphen"/>tunity of our labours &amp; troubles com<g ref="char:EOLhyphen"/>pel us to ſtop upon the Road before we take up our quarters in the Grave. What elſe are the conſtant returns of Sleep, but the pauſe and reparati<g ref="char:EOLhyphen"/>on of wearied and languiſhing life? So much is Death better than Life, that our Life is ſuſtain'd by Deaths; Our Immortality depends upon Death, and our ſtate of Mortality
+<pb n="18" facs="tcp:135215:15"/>
+upon Sleep the Image and Shadow of it.</p>
+            <p>Now to compare Death with Life. If that be the repaſt of this, it will conſequently be pleaſant. Or altho it be not Sweet in it ſelf, yet the trou<g ref="char:EOLhyphen"/>ble of Life will make it ſo. Weari<g ref="char:EOLhyphen"/>neſs prepares the pleaſure of reſt, and whatſoever ſucceeds Bitterneſs is Sweet. 'Twas well ſaid by <hi>Charidemus</hi> that Pleaſures and Grievances were linkt together in a Chain, inter<g ref="char:EOLhyphen"/>changably ſucceeding one another, ſo that the ſucceding pleaſure would b<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> proportionable to the proceding grie<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <g ref="char:EOLunhyphen"/>viance. Now what greater grievi<g ref="char:EOLunhyphen"/>ance then our Mortal Life, and con<g ref="char:EOLunhyphen"/>ſequently what greater pleaſere the Death? <hi>Phalaris</hi> ſaid that Life is there<g ref="char:EOLunhyphen"/>fore pleaſant becauſe we know of n<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> greater evil then Death. But h<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> ſpeaks the Senſe of the vulgar, an<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> yet to the diſcredit of Life too, find it muſt be beholding to an evil to re<g ref="char:EOLunhyphen"/>commend
+<pb n="19" facs="tcp:135215:15"/>
+it. I ſhould rather have ſaid. That Death ought to be thought pleaſant becauſe there is no greater e<g ref="char:EOLhyphen"/>vill then Life. And yet we are flat<g ref="char:EOLhyphen"/>ter'd on by the emergent happineſs of ſome men. But why do we look up<g ref="char:EOLhyphen"/>on thoſe who have eſcaped ſhipwrack? We ſhould rather conſider thoſe that are drown'd. Theſe are innumerable, and yet are thought few, becauſe they don't appear.</p>
+            <p>Let not now the Tears ſhed at Fu<g ref="char:EOLhyphen"/>nerals be alleadg'd againſt what has been ſaid. This depends all upon the opinion of the vulgar. And indeede e<g ref="char:EOLhyphen"/>very one laments rather himſelf, then him whom he call's dead. I ſay do not alleadg the Tears of others, you may your own. 'Tis a mans own thinking which makes him either happy or miſerable. What argument is it for the preference of Life before Death, that others weep When you die, if when you are born you your ſelf weep? 'Tis a
+<pb n="20" facs="tcp:135215:16"/>
+folly to rate our miſeries by other mens opinions. Contrary circumſtan<g ref="char:EOLhyphen"/>ces attend our Death and Nativity. At the Birth of a man others rejoice, but he himſelf weeps, at his Death o<g ref="char:EOLhyphen"/>thers weep, but he will rejoice, unleſs his Death be imbitter'd by an ill Life. Neither are we to think this gladneſs the leſs, becauſe calm and inward, and not ſo obvious to the ſenſe. The In<g ref="char:EOLhyphen"/>fant that wept at his Birth, by ſleep learns to ſmile ſays St. <hi>Auſtin.</hi> He de<g ref="char:EOLhyphen"/>dicates the Image of Death, with a ſmile, who begins his Life with Tears. A notable preſage of the miſeries of Life, and of the happineſs after Death. Weeping is narural, we need no teaching to diſſolve in Tears; joy is a difficult Leſſon, ſlowly learnt, and not without Diſcipline. 'Tis one of the precepts of <hi>Seneca,</hi> learn to re<g ref="char:EOLhyphen"/>joyce. Sleep gives us a ſip of joy, but Death the full draught. Greif and Miſery are Natural and Born with us, but joy advances more leaſurely. For
+<pb n="21" facs="tcp:135215:16"/>
+we may credit <hi>Avicenna,</hi> the Infant has no ſenſe of joy till after the For<g ref="char:EOLhyphen"/>tieth day. The reaſon therefore why others weep at thy Death is becauſe they never made trial of it, and the reaſon why they rejoice at thy Birth, is becauſe they are not to live your life. You alone, who can beſt preſage human condition, refuſe it with Tears, which are the language of unwilling nature.</p>
+            <p>And as the Ceremonies of our Birth are contrary to thoſe of our Death, ſo is the condition of the one contrary to that of the other. Death either in<g ref="char:EOLhyphen"/>verts or reſtores all things. Or rather reſtores by inverſion. For the inverſion of things that are upſide down, is the way to ſet them right. 'Twas a Funeral Ceremony in uſe among the <hi>T<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>biten<g ref="char:EOLhyphen"/>ſes</hi> to turn their garments inſide out<g ref="char:EOLhyphen"/>ward. Death it ſelf is term'd a change, and 'tis our laſt and greateſt, for all be<g ref="char:EOLhyphen"/>yond it is a State unchangeable. The
+<pb n="22" facs="tcp:135215:17"/>
+change is from confinement to liberty, from Time to Eternity, and (unleſs it be our own fault) from miſery to hap<g ref="char:EOLhyphen"/>pineſs.</p>
+            <p>Fortune is commonly prefer'd be<g ref="char:EOLhyphen"/>fore Life. How many are there who prodigally throw away their Lives in the purſuit of a Kingdom! But is there any proportion between Fortune and Happineſs, between a ſpeck of Ground, a Point, and the Kingdom of Heaven? Death adds ſo much to our happineſs as it cuts off from our Life. Before preſent admiſſion into Heaven was procured, long Life was propoſed as a reward to the good Pa<g ref="char:EOLhyphen"/>triarchs; but now when there is an im<g ref="char:EOLhyphen"/>mediate acceſs to the joys of Heaven</p>
+            <lg>
+               <l>We falſly think it due unto our friends,</l>
+               <l>That we ſhould greive at their untimely ends,</l>
+               <l>'Tis envy now to mourn their early, fate,</l>
+               <l>He only dyes untimely, who dyes late.</l>
+            </lg>
+            <p>
+               <pb n="23" facs="tcp:135215:17"/>And yet we are not ſufficiently in<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>amour'd with thoſe Glories which Death leads us to. Somtimes we caſt ſome faint longings that way, and tho oppreſſed with miſeries, are not yet enough deſirous to be rid of them. The miſeries of Life make us wiſh for Death, but yet</p>
+            <lg>
+               <l>Diſtrust and darkneſs of a future State</l>
+               <l>Make poor mankind ſtill fearful of their fate</l>
+               <l>Death in it ſelf is nothing, but we fear</l>
+               <l>To be we know not what, we know not where</l>
+            </lg>
+            <p>We would ſomtimes be dead, but are unwilling to die. Or if under the preſſure of ſome Pungent calamitie we paſſionately court Death, the Fit is no ſooner over, but we repent of our beſt Wiſh, like the Man in the Apologue, who languiſhing under his burthen threw it down and invo<g ref="char:EOLhyphen"/>ked Death, but when it came and demanded his buſineſs he told it 'twas to help him up with his bur<g ref="char:EOLhyphen"/>then.</p>
+            <p>
+               <pb n="25" facs="tcp:135215:18"/>So apt are thoſe to hug their miſe<g ref="char:EOLunhyphen"/>ries who hope for better exchange We are tired with out Toil and La<g ref="char:EOLunhyphen"/>bour, and yet we reſume the burthen</p>
+            <p>What Hungry man that ſtood on a barren bank, where there was no hope to relieve his Appetite, an<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> ſaw at the other ſide of the Rive<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> Trees laden with delicious Fruit would be grived to hear of a Brid<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> or be afraid to be row'd over in Boat, chuſing to ſtarve on the bank then hazard himſelf on the River <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> O the unaccountable folly of Men We commit our ſelves to the perfidi<g ref="char:EOLunhyphen"/>ous Ocean inqueſt of Gold, which lie at the Suburbs of Hell and yet we ar<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> loth to be Tranſported into our Ce<g ref="char:EOLunhyphen"/>leſtial Country, to the Glories of e<g ref="char:EOLunhyphen"/>ternity. Suppoſe there were no ne<g ref="char:EOLunhyphen"/>ceſſity of dying, but that every on<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> had the diſpoſal of his own deſtinie yet he were a fool who would no hazard the attainment of felicity by
+<pb n="25" facs="tcp:135215:18"/>
+Death, and had rather live alwaies in a ſtate of miſerie then by dying to end it. 'Tis a great folly to fear that which we would wiſh for, were there no ſuch thing. Much more then ſhould we bear Death patiently now 'tis neceſſary. The popular argu<g ref="char:EOLhyphen"/>ment why Death ought to be born patiently is becauſe 'tis a neceſſary e<g ref="char:EOLhyphen"/>vil. Here is a true conſequent but a falſ principle. For rather Death is a neceſſary good. However if an evil, requires patience on the Score of ne<g ref="char:EOLhyphen"/>ceſſity, much more does a neceſſary good. Death as good, calls for our joy, as neceſſary for our ſubmiſſion. That is certainly a very great good which puts us out of the reach of mi<g ref="char:EOLhyphen"/>ſerie, which frees the Captive without a Fee, which reſtores the Exile to his Country, without fear of returne,, which ſets at liberty the Slave, with<g ref="char:EOLhyphen"/>out the conſent of his Maſter, which cures the Sick, without a bitter Poti<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap>n, which redreſſes all the defects of
+<pb n="26" facs="tcp:135215:19"/>
+fortune, and unequal diſpenſations of providence. 'Twould have been a leſs errour if they had drawn an ar<g ref="char:EOLhyphen"/>gument from neceſſitie to bear Life patiently, for that more deſerves the name of a neceſſary evil. For 'tis that which thruſt you into evil without your election, and then Wheedles you into evil with your own Con<g ref="char:EOLhyphen"/>ſent. 'Twas cunningly contriv'd by Nature that Souls ſhould be unknow<g ref="char:EOLhyphen"/>ingly Immers'd in the Body, and caſt blindfold into ſuch a ſordid Dun<g ref="char:EOLhyphen"/>geon. For who that is in his right will, at the laſt Gaſp, would if he might reenter the Priſon of his Moth<g ref="char:EOLhyphen"/>ers Womb, be nouriſhed with filth, be deprived of light ſo many Months, and of ſenſe ſo many years; run a<g ref="char:EOLhyphen"/>gain the gandelope of Fortune, re<g ref="char:EOLhyphen"/>ſume the ſenſleſneſs of Infancy, the Fears of Child-hood, the Dangers of Youth, the Cares of man-hood and the Infirmities of Old age? I believe never any man had a life ſo happy, as
+<pb n="27" facs="tcp:135215:19"/>
+to be willing to live it over again: Certainly if Life were offerd to us without the condition of Death, what ever Happineſs it promiſed elſe, it were to be refuſed.</p>
+            <p>The likeneſs that is between Death and Good, is enough to take a way all Suſpition of its being evil. None live more happily thë thoſe who moſt reſemble the Dead. Death is the Idea and rule of the beſt Life. The grea<g ref="char:EOLhyphen"/>teſt perfection of Life is to imitate Death, as every Heroical Perſon does when he abſtracts his Mind from his Body, holds no commerce with his Senſes, and Weds himſelf to the Divi<g ref="char:EOLhyphen"/>nitie. On what account do you think 'tis that Sleep is often priviledgd with Viſions and Revelations? God Loves and Honours the Image of Death.</p>
+            <p>Ecſtacie and Abſtraction from Communication with the Bodie is one of the waies of Oracle, &amp; I Prophecie. The Mind which is diſengaged from
+<pb n="28" facs="tcp:135215:20"/>
+the Senſes is the more capable of Di<g ref="char:EOLhyphen"/>vine infuſions.</p>
+            <p>Beſides what is Philoſophy but the meditation of Death? And why not? Since the fruit of Philoſophie is ver<g ref="char:EOLhyphen"/>tue, and vertue is the imitation, or incoation of Death. 'Tis the principal artifice of Philoſophie to make Life pleaſant by the imitation of Death, and Death by conformity of Life. The moral Death ſmooths the paſſage for the natural. The ſeparation of Soul and Bodie is intolerable to him who has not diſengaged himſelf from his paſſions, but muſt ſwallow down the bitter Potion of Death all to<g ref="char:EOLhyphen"/>gether. Our very Meat would Choak us if we did not Mince and Chew it, and Eat it peice by peice. Death if taken by degrees will be guſt<g ref="char:EOLhyphen"/>ful and wholeſome; if we lop of one Paſſion to daie, an other to morrow. There a teſt weight is portable, i<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> born by parts. Philoſophy is an anti<g ref="char:EOLhyphen"/>cipation
+<pb n="29" facs="tcp:135215:20"/>
+of Death which by daily Subſtra<g ref="char:EOLhyphen"/>ctions leſſens its weight. What wonder is it if Death be inſupportable to him who under goes a great many Deaths in one? The loſs of one thing as of Honour, Pleaſure, or a Friend, is enough many times to wound us to the Heart, what a Grief will it then be to looſe all our Life in one moment? And therefore the Soul of a Wiſe man diſengages it ſelf from the Bodie by degrees, that it may converſe with it ſelf and God. She finds that ſhe reaſons more clearly, when withdrawn from the hurry of the Senſes, and that ſhe muſt retire a while from the Contagion of the Fleſh, if ſhe will ſpeculate a refined truth. Truth is a pure thing and cannot be beheld but by a clarified and ſpiritua<g ref="char:EOLhyphen"/>lized Sight.</p>
+            <p>Therefore the whole ſtudie of ver<g ref="char:EOLhyphen"/>tue conſiſts in a ſeparation of the Soul from the Bodie, and in near approa<g ref="char:EOLhyphen"/>ches to Death, which for that very teaſon
+<pb n="30" facs="tcp:135215:21"/>
+it loves, or at leaſt leſs fears. How can he fear Death, who by dy<g ref="char:EOLhyphen"/>ing lived well? Who diveſted him<g ref="char:EOLhyphen"/>ſelf of more then Death can? Who has already drained all its force? Will he, who all his Life time endeavored to Sequeſter himſelf from his Bodie, draw back when he is juſt about com<g ref="char:EOLunhyphen"/>pleatly to enjoy his Wiſh? No Man will be troubled if what he hath a long time been labouring in vain to ef<g ref="char:EOLhyphen"/>fect, be at laſt done by another, Na<g ref="char:EOLhyphen"/>ture finiſhes that by Death which vertue had begun in Life.</p>
+            <p>The affinity between Death and Vertue may be farther illuſtrated from the exhibition of honour. For as vertue becomes Majeſtick from the reſemblance it has of Death, ſo it commands reverance to be given to others as Death does. What can be more venerable then that for whoſe ſake the moſt Wicked are not evi<gap reason="illegible" resp="#PDCC" extent="1 letter">
+                  <desc>•</desc>
+               </gap> ſpoken off. For as ill Men for the
+<pb n="31" facs="tcp:135215:21"/>
+very awe and honour of Vertue will not own them ſelves ſo; aſſuming to themſelves ſome imaginarie excellen<g ref="char:EOLhyphen"/>cie, ſo for the reverence of Death we ſpare thoſe that have been evil, nay ſcarce ever name them without ſome commendation. So venerable is Death that it procures reſpect to the moſt contemptible. We are apt to praiſe him when dead, whom we en<g ref="char:EOLhyphen"/>vied when a live. according to that of <hi>Minermus</hi> 
+               <gap reason="foreign">
+                  <desc>〈 in non-Latin alphabet 〉</desc>
+               </gap>. Envy ſtops ſhort of this ſide of the Grave Every one ſpeaks honorably of the dead. And what do you think is the ground of this eſteem? 'Tis the current Philoſophie even among the Vulgar to take them for happy which are exempted from the calamities of this Life. And all happineſs is hono<g ref="char:EOLhyphen"/>rable. Neither is this honour given to the Soul only, but alſo to the Bo<g ref="char:EOLhyphen"/>die, tho now under the moſt vile cir<g ref="char:EOLhyphen"/>cumſtances. How awful is the ſight
+<pb n="32" facs="tcp:135215:22"/>
+of a Coffin! With what Majeſtie does it ly! What lectures of Morality does it ſuggeſt! We are not ſo compoſed in the preſence of a King, as at the Sight of a Corps. Nay 'tis not only Venerable but Sacred; The Honour of Burial is become a part of Religi<g ref="char:EOLhyphen"/>on.</p>
+            <p>Another reaſon of the Goodneſs of Death, may be taken from the whol<g ref="char:EOLhyphen"/>ſome influence it has on our Lives. The Death of others profits us who ſee it, and our own profits them that Celebrate it. And certainly the beſt Philoſophie is, to ſeaſon our whole Lives with the meditation of Death. And therefore to this end Nature ſupplies us every Moment with Emblems of Death. The Cheif<g ref="char:EOLhyphen"/>eſt of which is Reſpiration. We live by little Eſſays of Death, and Re<g ref="char:EOLhyphen"/>tain our Spirit by continual emiſſions of it. Nay that which moſt of all diſ<g ref="char:EOLhyphen"/>pleaſes us in Death, the certainty of
+<pb n="33" facs="tcp:135215:22"/>
+the thing, and the uncertainty of time, and manner, is of great uſe to us. I take this mixture of certainty and un<g ref="char:EOLhyphen"/>certainty to be one of the moſt inge<g ref="char:EOLhyphen"/>nious Stratagems (I may ſo ſpeak) of divine providence for the gover<g ref="char:EOLhyphen"/>ment of Man kind. God would have us alwaies good, and conſequently alwaies uncertain of certain Death. So that hereby Care is taken that the lateneſs of Death may not be an in<g ref="char:EOLhyphen"/>ducement to ſecurity, nor the ſud<g ref="char:EOLhyphen"/>dainneſs to deſpair of reformation. But that the poſſibility of each may make Men careful, but not deſperate. The poſſibility of a ſpeedy Death al<g ref="char:EOLhyphen"/>lievates the labours of Life, and pre<g ref="char:EOLhyphen"/>vents the delayes of vertue. For if a Man would be troubled if he knew he had but one Month more to live, how dares he laugh and neglect his duty, who knows not whether there re<g ref="char:EOLhyphen"/>mains a day, an hour? The World was never more vitious then when Men were longeſt lived. Then 'twas
+<pb n="34" facs="tcp:135215:23"/>
+that nature required an expiation by Waters. And therefore I think <hi>Theo<g ref="char:EOLhyphen"/>phraſtus,</hi> was very unreaſonable to complain of nature becauſe ſhe had granted to ſome Brutes, a leaſe of Life for above Five Hundred years, whereas the Life of man the moſt ex<g ref="char:EOLhyphen"/>cellent of all her works was ſo brittle and ſhort. He erred both in his de<g ref="char:EOLhyphen"/>ſire and in his judgment. 1 For wiſh<g ref="char:EOLhyphen"/>ing for ſo many years, and 2 For thinking that Life whoſe meaſure is action and not daies, was to be reck<g ref="char:EOLhyphen"/>oned by them. The time and manner of our Birth have ſome certainty, but there is no ſet manner of dying.</p>
+            <p>'Twas a Favour to ſet open more paſſages for a flight from, then for an entrance into evils. 'Tis therefore poſſible you may die at all times, that ſhould live well at all times, that you ſhould not live in that State which you wou'd be affraid to die in.</p>
+            <pb n="35" facs="tcp:135215:23"/>
+            <p>The eaſineſs or frequent contin<g ref="char:EOLhyphen"/>gency of Death is no ſmall commen<g ref="char:EOLhyphen"/>dation of it. Our Body and Soul are ill match'd they are ſo eaſily divorc'd. There is no creature of ſo frail a con<g ref="char:EOLhyphen"/>ſtitution as man. He falls by the leaſt accident, and ſhakes off his ill-ſuted Body. <hi>Fabius,</hi> was choaked with an Hair, <hi>Anacreon,</hi> with a Grape-ſtone. <hi>Baptiſta Mirandulous,</hi> died of the ve<g ref="char:EOLhyphen"/>ry fancy of a Wound. Honour kill'd <hi>Clidemus,</hi> exultation of Spirit <hi>Diago<g ref="char:EOLhyphen"/>ras,</hi> Laughter <hi>Philemon.</hi> Life is ſo frail a poſſeſſion, there is no need of violence, the very blandiſhments are enough to ſhake it. We receive our Life through difficulties, enjoy it with difficulty, and keep it precarioſly. Any one may deprive us of Life, but no body can keep Death from us. That's as free to a Slave as to a Prince. The Emperor <hi>Leo</hi> impoſed a Tax upon Births, but never was ſuch a Burthen put upon Death; The Infant was tax'd at his entrance into
+<pb n="36" facs="tcp:135215:24"/>
+the world, but 'twas ever free to die.</p>
+            <p>Do you lament the unſeaſonable<g ref="char:EOLhyphen"/>neſs of Death? All Death is ſeaſon<g ref="char:EOLhyphen"/>able to every age. It reſcues Old age from miſery, Youth from vice, and In<g ref="char:EOLhyphen"/>fancy from both. It gathers old men as ripe, turns the Bloſſom of youth in<g ref="char:EOLhyphen"/>to Fruit, and compendiouſly ripens infancy. If thy Death could be put off a little longer, what advantage will it be in thy accounts of nature or hap<g ref="char:EOLhyphen"/>pineſs? They that 3000 years agon died unwillingly, and ſtopped Death Two daies or a Week, what is their gain? Where is that Week? And yet poor ſpirited Mortals uſe arts of pro<g ref="char:EOLhyphen"/>traction, like the miſerable Sinners at <hi>Noab's</hi> Flood. The waters drove them out of their lower Rooms, then they crept up to the Roof, having laſted half a day longer, they knew not how to get down. Some crept up to the top branch of a Tree, ſome climb'd up to a Mountain, and linger'd
+<pb n="37" facs="tcp:135215:24"/>
+it may be Three daies longer. But all that while they endured a worſe torment then Death; They lived with amazement, diſtracted with the ruines of mankind, and the horrour of their own approaching Death.</p>
+            <p>Another thing which commends Death is, that it cannot be repeated. Tho ſome think that an unhappineſs, hoping to mend that in the ſecond Death, which went amiſs in the firſt. All other afflictions are not ſo civil and courteous. They are importu<g ref="char:EOLhyphen"/>nate in their viſits, come and go a Thouſand times over. Death will not be troubleſom, comes but once. But why would you have it repeated? To know by experience what 'tis to dy? Neither do you want that convenien<g ref="char:EOLhyphen"/>cy. The fates are ingeniouſly con<g ref="char:EOLhyphen"/>trived. Tho Death comes but once; yet it does not come all at once. It inſinuates it ſelf by degrees, makes ſeveral preliminary Eſſays. Childhood
+<pb n="38" facs="tcp:135215:25"/>
+Death of Infancy, Youth the Death of Childhood, Manhood of youth, old age of manhood. The laſt Moment is but the conſummation of what the firſt began. You may know Death by her retinue, ſhedding of Teeth, trembling of Joynts, grey Hair, bald<g ref="char:EOLhyphen"/>neſs &amp;c. You cannot live a day with<g ref="char:EOLhyphen"/>out the taſt of it. All ſucceſſion of time, all the changes in nature, all va<g ref="char:EOLhyphen"/>rieties of light and darkneſs, every creature does preach our Funeral Ser<g ref="char:EOLhyphen"/>mon, and calls us to look and ſee how the old Sexton time throws up the Earth, and digs a Grave, where we muſt lay our ſins or our ſorrows. Sleep which is the Image of Death we daily experiment. Wee deſire it, we are refreſh'd by it, 'tis the end of our lab<g ref="char:EOLhyphen"/>ours, the depoſition of our cares, the reparation of the man. Now the Image is never ſo excellent as the Prototype. If we love the ſhadow, why do we hate the ſubſtance? Nature in<g ref="char:EOLhyphen"/>tended Death as the comfort and
+<pb n="39" facs="tcp:135215:25"/>
+ſupport of Life, and therefore leaſt the delay of ſo great a good ſhould make us impatient, has left us its im<g ref="char:EOLhyphen"/>age to ſolace our ſelves withall for the perſent.</p>
+            <p>But ſuppoſe after all this, that all Death were evil and dreadful. Why then do we not care for that which we profeſs we fear? Why do we neglect that which we do not contemn? If it be evil, why don't we prepare for it? We make proviſion againſt other dan<g ref="char:EOLhyphen"/>gers tho contingent; we arm our ſelves againſt Caſualties. Why do we not make preparation againſt that which we know to be neceſſary? There is a great difference betwixt contempt and neglect of Death. None provide more againſt it, then thoſe who con<g ref="char:EOLhyphen"/>temn it; none fear it more then thoſe who neglect it; and what is more ſtrange don't only therefore fear it, be<g ref="char:EOLhyphen"/>cauſe they have neglected it, but neg<g ref="char:EOLhyphen"/>lect it even while they fear it. Who
+<pb n="40" facs="tcp:135215:26"/>
+would think it poſſible that Men could be guilty of ſuch incompara<g ref="char:EOLhyphen"/>ble Sottiſhneſs, who know that the only Security of Life is the aſſurance of an happy death, and that the only aſſurance of an happy Death, is the teſtimonie of a good Life.</p>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:135215:26"/>
+            <pb facs="tcp:135215:27"/>
+            <pb facs="tcp:135215:27" rendition="simple:additions"/>
+         </div>
+      </body>
+   </text>
+</TEI>
